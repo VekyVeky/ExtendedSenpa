@@ -1,6 +1,7 @@
 (function() {
     let style = 
 `<style>
+
 .loop-holder {
     display: flex;
     white-space: nowrap;
@@ -30,6 +31,7 @@
     left: 0;
     background-color: black;
 }
+
 #huds #chat-room div .nick #legend {
     animation: colorRotate 5s linear 0s infinite;
 }
@@ -180,6 +182,7 @@
 #menu .main-menu .panel.right .region-selectors .tab {
     background: #3330;
 }
+
 #menu .main-menu .panel.right .list-container {
     background: #3330;
 }
@@ -203,7 +206,7 @@
 </style>`;
     document.head.insertAdjacentHTML("beforeend", style);
 })();
-    
+
 //▼▼ Removing useless shit / setting default values for mod / adding small details ▼▼
 document.getElementsByClassName("advertisement-informer")[0].remove();
 document.getElementsByClassName("partition right")[0].remove();
