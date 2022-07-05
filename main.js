@@ -201,6 +201,8 @@
     background-size: 1015px 539px;
 }
 </style>`;
+    document.head.insertAdjacentHTML("beforeend", style);
+})();
     
 //▼▼ Removing useless shit / setting default values for mod / adding small details ▼▼
 document.getElementsByClassName("advertisement-informer")[0].remove();
